@@ -40,7 +40,7 @@ export default class extends Component {
                   </Segment>
                   <div className='parallax__layer parallax__layer--base'>
                      <div style={{height: '96%'}}>
-                        <Link href="/content">
+                        <Link href="./content">
                            <Button size='big' primary icon labelPosition='right'>
                               NEXT
                               <Icon name='arrow circle right'></Icon>
