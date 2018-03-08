@@ -6,7 +6,7 @@
     "deploy": "gh-pages -d out",
     "dev": "node server.js",
     "build": "next build && next export",
-    "start": "NODE_ENV=production node server.js
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@zeit/next-css": "^0.1.2",
