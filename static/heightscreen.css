@@ -1,0 +1,42 @@
+html, body, #__next, [data-reactroot], [data-reactchild] {
+   height: 100% !important;
+   padding: 0px;
+   margin: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+   [class*="mobile hidden"] {
+      display: none !important;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   [class*="tablet hidden"] {
+      display: none !important;
+   }
+}
+
+[class*="bottom"] {
+   position: absolute;
+   bottom: 1em;
+   left: calc((100% - 29px)/2);
+}
+
+.parallax {
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+   transform: translateZ(-1px) scale(2.01);
+}
