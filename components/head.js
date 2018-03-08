@@ -9,7 +9,7 @@ const Head = (props) => (
   <NextHead>
     <meta charset="UTF-8" />
     <title>My page</title>
-    <link rel='stylesheet' href='/_next/static/style.css' />
+    <link rel='stylesheet' href='./_next/static/style.css' />
     <link rel='stylesheet' href='./static/heightscreen.css' />
 
 
