@@ -42,11 +42,11 @@ app.prepare().then(() => {
          })
          .then(function(docRef) {
             console.log("Document written with ID: ", docRef.id);
-            return res.redirect('/done')
+            return res.redirect('./done')
          })
          .catch(function(error) {
             console.error("Error adding document: ", error);
-            return res.redirect('/error');
+            return res.redirect('./error');
          })
       })
    })
